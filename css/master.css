@@ -1,0 +1,174 @@
+/* rule code */
+:root
+{
+      --body-bg: blue;
+}
+/* End rule code */
+*
+{
+      box-sizing: border-box;
+      --webkit--box-sizing: border-box;
+      --moz--box-sizing: border-box;
+}
+html
+{
+      scroll-behavior: smooth;
+}
+body
+{
+      margin: 0;
+      padding: 0;
+      background-color: var(--body-bg);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+ul{
+      list-style: none;
+}
+.container{
+      /* width: 600px; */
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+@media (min-width:768) {
+      .container {
+            width: 750x;
+      }
+}
+
+@media (min-width:992) {
+      .container {
+            width: 970px;
+      }
+
+}
+
+@media (min-width:1200) {
+
+      .container {
+            width: 1170px;
+      }
+}
+/* rule code */
+/*  */
+.form
+{
+      background-color: white;
+      text-align: center;
+      margin-top: 20px;
+      height: 95vh;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+}
+@media (min-width:768px) and (max-width:991px)
+{
+      .form
+      {
+            margin-top: 0;
+            height: 155vh;
+      }
+}
+@media (max-width:767px)
+{
+      .form
+      {
+            margin-top: 90px;
+            height: 72vh;
+      }
+}
+.form h2
+{
+      color: #a2a2a2;
+            font-size: 30px;
+            font-style: italic;
+            font-weight: bolder;
+}
+.form form input
+{
+      background: none;
+            border: none;
+            border-bottom: 1px solid black;
+            outline: none;
+}
+.form form input:focus
+{
+      border-bottom: 1px solid var(--body-bg);
+}
+.form form
+{
+      padding-left: 20px;
+      padding-right: 20px;
+}
+.form form button
+{
+      width: 100%;
+      background-color: var(--body-bg);
+      border: none;
+      outline: none;
+      padding: 10px;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+      color: #fff;
+      cursor: pointer;
+}
+.form  i
+{
+      color: #a2a2a2;
+}
+.form #i-down
+{
+      padding-top: 20px;
+      font-size: 25px;
+      /* transition: 0.3s;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+      -o-transition: 0.3s; */
+      animation-name: down;
+      animation-duration: 0.6s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      animation-direction: alternate;
+      /* animation-play-state: running; */
+
+}
+@keyframes down
+{
+      to{
+            transform: translateY(-20px);
+            -webkit-transform: translateY(-20px);
+            -moz-transform: translateY(-20px);
+            -ms-transform: translateY(-20px);
+            -o-transform: translateY(-20px);
+}
+}
+.form p
+{
+      text-transform: capitalize;
+}
+.form p span
+{
+      color: var(--body-bg);
+      cursor: pointer;
+}
+.form p#with-me
+{
+      color: #a2a2a2;
+}
+.form i#me
+{
+      color: blue;
+      font-size: 25px;
+      padding-right: 5px;
+}
+/*  */
