@@ -60,7 +60,7 @@ ul{
       background-color: white;
       text-align: center;
       margin-top: 20px;
-      height: 95vh;
+      /* height: 95vh; */
       border-radius: 10px;
       -webkit-border-radius: 10px;
       -moz-border-radius: 10px;
@@ -81,6 +81,13 @@ ul{
       {
             margin-top: 90px;
             height: 80vh;
+      }
+}
+@media (min-width:992px)
+{
+      .form
+      {
+            height: 95vh;
       }
 }
 .form h2
