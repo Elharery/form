@@ -179,3 +179,14 @@ ul{
       padding-right: 5px;
 }
 /*  */
+@media (max-width: 170px){
+      .form{
+            width: 160px;
+      }
+      .form input{
+            width: 125px;
+            margin-left: -15px;
+            height: 130vh;
+      }
+
+}
