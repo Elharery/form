@@ -187,7 +187,7 @@ ul{
 }
 @media (min-width: 375px){
       .form{
-            height: 95vh;
+            height: 75vh;
       }
       .container h2{
             color: yellow;
