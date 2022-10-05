@@ -179,6 +179,14 @@ ul{
       padding-right: 5px;
 }
 /*  */
+@media (max-width: 319px){
+      .form{
+            height: 93vh;
+      }
+      .container h2{
+            color: red;
+      }
+}
 @media (min-width: 320px){
       .form{
             height: 80vh;
