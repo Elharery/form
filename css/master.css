@@ -179,9 +179,9 @@ ul{
       padding-right: 5px;
 }
 /*  */
-@media (max-width: 767px){
+@media (min-width: 320px){
       .form{
-            height: 75vh;
+            height: 95vh;
       }
       .container h2{
             color: yellow;
