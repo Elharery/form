@@ -185,39 +185,57 @@ ul{
       }
 
 }
-@media (min-width: 321px) and (max-width: 375px){
+@media (min-width: 375px){
+      .form{
+            height: 95vh;
+      }
+      .container h2{
+            color: yellow;
+      }
+}
+/* @media (min-width: 321px) and (max-width: 375px){
       .form{
             height: 75vh;
       }
       .container h2{
             color: yellow;
       }
+} */
+@media (min-width: 425px){
+      .form{
+            height: 95vh;
+      }
+      .container h2{
+            background-color: blue;
+            color: gray;
+      }
 }
-@media (min-width: 376px) and (max-width: 424px){
+/* @media (min-width: 376px) and (max-width: 424px){
       .form{
             height: 75vh;
       }
       .container h2{
             background-color: blue;
       }
-}
-/* @media (min-width: 426px) and (max-width: 767px){
+} */
+@media (min-width: 768px){
       .form{
-            height: 0vh;
+            height: 95vh;
       }
       .container h2{
             color: blueviolet;
+            background: none;
       }
-} */
-@media (min-width: 425px) and (max-width: 768px){
+}
+/* @media (min-width: 425px) and (max-width: 768px){
       .form{
             height: 75vh;
       }
       .container h2{
             color: blueviolet;
       }
-}
-@media (min-width: 769px){
+} */
+@media (min-width: 992px){
       .form{
             height: 95vh;
       }
