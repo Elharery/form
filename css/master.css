@@ -178,7 +178,11 @@ ul{
       font-size: 25px;
       padding-right: 5px;
 }
-/*  */
+.form a{
+      display: inline-block;
+      padding-bottom: 20px;
+}
+/* 
 @media (max-width: 319px){
       .form{
             height: 93vh;
@@ -202,78 +206,4 @@ ul{
       .container h2{
             color: coral;
       }
-}
-/* @media (max-width: 320px){
-      .container h2{
-            color: red;
-      }
-
-}
-
-@media (min-width: 375px){
-      .form{
-            height: 75vh;
-      }
-      .container h2{
-            color: yellow;
-      }
-}
-@media (min-width: 425px){
-      .form{
-            height: 95vh;
-      }
-      .container h2{
-            background-color: blue;
-            color: gray;
-      }
-}
-@media (min-width: 768px){
-      .form{
-            height: 95vh;
-      }
-      .container h2{
-            color: blueviolet;
-            background: none;
-      }
-}
-@media (min-width: 992px){
-      .form{
-            height: 95vh;
-      }
-      .container h2{
-            color: chocolate;
-      }
-}
-@media (min-width: 1023px){
-      .form{
-            height:95vh;
-      }
-      .container h2{
-            color:crimson;
-      }
 } */
-
-/* @media (min-width: 425px) and (max-width: 768px){
-      .form{
-            height: 75vh;
-      }
-      .container h2{
-            color: blueviolet;
-      }
-} */
-            /* @media (min-width: 321px) and (max-width: 375px){
-                  .form{
-                        height: 75vh;
-                  }
-                  .container h2{
-                        color: yellow;
-                  }
-            } */
-            /* @media (min-width: 376px) and (max-width: 424px){
-                  .form{
-                        height: 75vh;
-                  }
-                  .container h2{
-                        background-color: blue;
-                  }
-            } */
